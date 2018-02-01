@@ -1,0 +1,123 @@
+{
+	"id": "c6309824-4231-986c-437c-6aa341aecdf1",
+	"name": "BDR",
+	"description": "",
+	"order": [
+		"e77e901e-6bd0-3bb5-76a1-f1a434763321",
+		"292427cd-4a5e-0314-46d1-2ca5f9e0b6da",
+		"26b3e7f5-3cbc-943a-db3d-8f01194d81e0",
+		"61dfb975-ed58-54b1-15bb-accaa4835dba"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1517413625262,
+	"owner": "417587",
+	"public": false,
+	"requests": [
+		{
+			"id": "26b3e7f5-3cbc-943a-db3d-8f01194d81e0",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8000/task/5",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1517448117956,
+			"name": "Task Put",
+			"description": "",
+			"collectionId": "c6309824-4231-986c-437c-6aa341aecdf1",
+			"responses": [],
+			"rawModeData": "{\n\t\"title\":\"alberto 5\",\n\t\"description\":\"agua de cocos\",\n\t\"order\":5\n}"
+		},
+		{
+			"id": "292427cd-4a5e-0314-46d1-2ca5f9e0b6da",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8000/task",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1517448119947,
+			"name": "Task Post",
+			"description": "",
+			"collectionId": "c6309824-4231-986c-437c-6aa341aecdf1",
+			"responses": [],
+			"rawModeData": "{\n\t\"title\":\"alberto 7\",\n\t\"description\":\"teste\",\n\t\"order\":8\n}"
+		},
+		{
+			"id": "61dfb975-ed58-54b1-15bb-accaa4835dba",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8000/task/7",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "c6309824-4231-986c-437c-6aa341aecdf1",
+			"data": null,
+			"dataMode": "params",
+			"name": "Task Delete",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1517448133833,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "e77e901e-6bd0-3bb5-76a1-f1a434763321",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8000/task",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "c6309824-4231-986c-437c-6aa341aecdf1",
+			"data": null,
+			"dataMode": "params",
+			"name": "Task Get",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1517413638180,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
